@@ -16,7 +16,7 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "40C9BB6516C2552B00A1961B"
                BuildableName = "SimpleApp.app"
-               BlueprintName = "SimpleApp"
+               BlueprintName = "simpleapp"
                ReferencedContainer = "container:SimpleApp.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -44,7 +44,7 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "40C9BB6516C2552B00A1961B"
             BuildableName = "SimpleApp.app"
-            BlueprintName = "SimpleApp"
+            BlueprintName = "simpleapp"
             ReferencedContainer = "container:SimpleApp.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -63,7 +63,7 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "40C9BB6516C2552B00A1961B"
             BuildableName = "SimpleApp.app"
-            BlueprintName = "SimpleApp"
+            BlueprintName = "simpleapp"
             ReferencedContainer = "container:SimpleApp.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -81,7 +81,7 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "40C9BB6516C2552B00A1961B"
             BuildableName = "SimpleApp.app"
-            BlueprintName = "SimpleApp"
+            BlueprintName = "simpleapp"
             ReferencedContainer = "container:SimpleApp.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>

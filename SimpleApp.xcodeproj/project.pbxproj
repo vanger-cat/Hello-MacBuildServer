@@ -163,9 +163,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		40C9BB6516C2552B00A1961B /* SimpleApp */ = {
+		40C9BB6516C2552B00A1961B /* simpleapp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 40C9BB9F16C2552C00A1961B /* Build configuration list for PBXNativeTarget "SimpleApp" */;
+			buildConfigurationList = 40C9BB9F16C2552C00A1961B /* Build configuration list for PBXNativeTarget "simpleapp" */;
 			buildPhases = (
 				40C9BB6216C2552B00A1961B /* Sources */,
 				40C9BB6316C2552B00A1961B /* Frameworks */,
@@ -175,7 +175,7 @@
 			);
 			dependencies = (
 			);
-			name = SimpleApp;
+			name = simpleapp;
 			productName = SimpleApp;
 			productReference = 40C9BB6616C2552B00A1961B /* SimpleApp.app */;
 			productType = "com.apple.product-type.application";
@@ -221,7 +221,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				40C9BB6516C2552B00A1961B /* SimpleApp */,
+				40C9BB6516C2552B00A1961B /* simpleapp */,
 				40C9BB8C16C2552C00A1961B /* SimpleAppTests */,
 			);
 		};
@@ -290,7 +290,7 @@
 /* Begin PBXTargetDependency section */
 		40C9BB9316C2552C00A1961B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 40C9BB6516C2552B00A1961B /* SimpleApp */;
+			target = 40C9BB6516C2552B00A1961B /* simpleapp */;
 			targetProxy = 40C9BB9216C2552C00A1961B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -358,6 +358,7 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				COPY_PHASE_STRIP = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -366,6 +367,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -440,13 +442,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		40C9BB9F16C2552C00A1961B /* Build configuration list for PBXNativeTarget "SimpleApp" */ = {
+		40C9BB9F16C2552C00A1961B /* Build configuration list for PBXNativeTarget "simpleapp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				40C9BBA016C2552C00A1961B /* Debug */,
 				40C9BBA116C2552C00A1961B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		40C9BBA216C2552C00A1961B /* Build configuration list for PBXNativeTarget "SimpleAppTests" */ = {
 			isa = XCConfigurationList;
@@ -455,6 +458,7 @@
 				40C9BBA416C2552C00A1961B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
