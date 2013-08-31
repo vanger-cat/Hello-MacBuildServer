@@ -1,0 +1,9 @@
+/* 
+  Localizable.strings
+  SimpleApp
+
+  Created by Anton Katkov on 8/31/13.
+  Copyright (c) 2013 XP.Guild. All rights reserved.
+*/
+
+"Hello" = "Hello, %username%!";

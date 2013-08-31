@@ -9,5 +9,6 @@
 #import <UIKit/UIKit.h>
 
 @interface IGViewController : UIViewController
+@property (retain, nonatomic) IBOutlet UILabel *helloLabel;
 
 @end

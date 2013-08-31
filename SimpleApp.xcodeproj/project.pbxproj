@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		40AD478E17D2828A00762367 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 40AD478D17D2828A00762367 /* Localizable.strings */; };
 		40C9BB6B16C2552B00A1961B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40C9BB6A16C2552B00A1961B /* UIKit.framework */; };
 		40C9BB6D16C2552B00A1961B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40C9BB6C16C2552B00A1961B /* Foundation.framework */; };
 		40C9BB6F16C2552B00A1961B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40C9BB6E16C2552B00A1961B /* CoreGraphics.framework */; };
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		40AD478D17D2828A00762367 /* Localizable.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
 		40C9BB6616C2552B00A1961B /* simpleapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = simpleapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		40C9BB6A16C2552B00A1961B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		40C9BB6C16C2552B00A1961B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -137,6 +139,7 @@
 				40C9BB7C16C2552C00A1961B /* Default.png */,
 				40C9BB7E16C2552C00A1961B /* Default@2x.png */,
 				40C9BB8016C2552C00A1961B /* Default-568h@2x.png */,
+				40AD478D17D2828A00762367 /* Localizable.strings */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -237,6 +240,7 @@
 				40C9BB7F16C2552C00A1961B /* Default@2x.png in Resources */,
 				40C9BB8116C2552C00A1961B /* Default-568h@2x.png in Resources */,
 				40C9BB8416C2552C00A1961B /* MainStoryboard.storyboard in Resources */,
+				40AD478E17D2828A00762367 /* Localizable.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
