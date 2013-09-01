@@ -12,7 +12,10 @@
                         <rect key="frame" x="0.0" y="20" width="320" height="548"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Hello, %username%!" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cqe-qT-X6F">
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Hello, %username%!" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="321" translatesAutoresizingMaskIntoConstraints="NO" id="cqe-qT-X6F">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="183" id="XXj-KF-5qs"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
@@ -22,13 +25,26 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="http://macbuildserver.com" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="xgn-jX-IDH">
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="240" id="AYh-pF-7qc"/>
+                                    <constraint firstAttribute="height" constant="34" id="WHH-oP-tns"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <dataDetectorType key="dataDetectorTypes" link="YES"/>
+                            </textView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="cqe-qT-X6F" firstAttribute="top" secondItem="3" secondAttribute="top" constant="157" id="Axf-l9-G0U"/>
-                            <constraint firstItem="ge5-zH-lzA" firstAttribute="centerX" secondItem="3" secondAttribute="centerX" type="default" id="Ti5-RJ-2Ot"/>
+                            <constraint firstItem="cqe-qT-X6F" firstAttribute="centerX" secondItem="ge5-zH-lzA" secondAttribute="centerX" type="default" id="Eyu-eQ-cWM"/>
+                            <constraint firstItem="cqe-qT-X6F" firstAttribute="top" secondItem="3" secondAttribute="top" constant="109" id="PjM-Ws-Qt2"/>
+                            <constraint firstItem="xgn-jX-IDH" firstAttribute="centerX" secondItem="3" secondAttribute="centerX" type="default" id="Vad-mx-cZ2"/>
+                            <constraint firstItem="xgn-jX-IDH" firstAttribute="top" secondItem="3" secondAttribute="top" constant="7" id="bR4-tM-Q4J"/>
+                            <constraint firstItem="xgn-jX-IDH" firstAttribute="centerX" secondItem="cqe-qT-X6F" secondAttribute="centerX" type="default" id="cWb-zb-alj"/>
                             <constraint firstAttribute="bottom" secondItem="ge5-zH-lzA" secondAttribute="bottom" constant="20" symbolic="YES" type="default" id="iCm-Ud-A2R"/>
-                            <constraint firstItem="cqe-qT-X6F" firstAttribute="centerX" secondItem="ge5-zH-lzA" secondAttribute="centerX" type="default" id="tM4-B2-fWm"/>
+                            <constraint firstItem="cqe-qT-X6F" firstAttribute="leading" secondItem="3" secondAttribute="leading" type="default" id="riX-SJ-1rx"/>
                         </constraints>
                     </view>
                     <connections>
